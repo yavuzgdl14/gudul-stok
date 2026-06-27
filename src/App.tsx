@@ -451,36 +451,7 @@ export default function App() {
 
             {/* Backups buttons */}
             <div className="flex gap-2 shrink-0">
-              <button
-                onClick={handleExport}
-                title="Stok Verisini İndir"
-                className="bg-[#1c1c1c] hover:bg-[#262626] border border-[#262626] p-2.5 rounded-xl transition text-neutral-300 cursor-pointer"
-                id="backup-btn"
-              >
-                <Download className="w-4 h-4" />
-              </button>
-
-              <label 
-                title="Yedekten Yükle"
-                className="bg-[#1c1c1c] hover:bg-[#262626] border border-[#262626] p-2.5 rounded-xl transition text-neutral-300 cursor-pointer flex items-center justify-center"
-              >
-                <Upload className="w-4 h-4" />
-                <input
-                  type="file"
-                  onChange={handleImport}
-                  accept=".json"
-                  className="hidden"
-                />
-              </label>
-
-              <button
-                onClick={() => setShowResetConfirm(true)}
-                title="Sıfırla"
-                className="bg-[#1c1c1c] hover:bg-red-950/20 hover:border-red-900/60 p-2.5 rounded-xl border border-[#262626] transition text-red-400 cursor-pointer"
-                id="reset-btn"
-              >
-                <RotateCcw className="w-4 h-4" />
-              </button>
+            
             </div>
           </div>
 
