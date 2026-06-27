@@ -517,15 +517,7 @@ export default function App() {
             <p className="text-[11px] text-neutral-400 leading-normal">
               Bu projeyi bilgisayarınıza indirip Android Studio ile kendi özel APK'nızı oluşturabilirsiniz.
             </p>
-            <a 
-              href="/gudul-stok.zip" 
-              download="gudul-stok.zip"
-              className="w-full py-2 px-3 bg-amber-500 hover:bg-amber-600 active:scale-98 text-black text-center font-black text-xs rounded-xl transition cursor-pointer flex items-center justify-center gap-2"
-              id="download-zip-btn"
-            >
-              <Download className="w-3.5 h-3.5" />
-              Projeyi ZIP Olarak İndir
-            </a>
+            
           </div>
 
           <p className="text-[10px] font-black tracking-widest text-[#666] uppercase px-1 mt-2">KATEGORİLER</p>
