@@ -495,8 +495,7 @@ export default function App() {
           
           {/* Brand Logo Sticker Badge */}
           <div className="bg-[#121212] border border-[#262626] rounded-3xl p-6 flex flex-col items-center justify-center text-center shadow-md">
-            <GudulLogo size={190} showCircle={true} className="shadow-2xl hover:rotate-1 hover:scale-105 transition duration-300" />
-            <span className="text-[9px] font-mono text-neutral-500 mt-4 tracking-widest uppercase font-black">RESMİ DÜKKAN LOGOSU</span>
+            <GudulLogo size={190} showCircle={true} 
           </div>
 
           {/* Quick Date Display */}
