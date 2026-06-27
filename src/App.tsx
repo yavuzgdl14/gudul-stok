@@ -476,21 +476,8 @@ export default function App() {
               <span>GÜNCEL SAAT</span>
             </div>
             <span className="text-white font-bold">{timeString || "00:00"}</span>
-          </div>
-
-          {/* Android Studio ZIP Download */}
-          <div className="bg-[#121212] border border-amber-900/30 hover:border-amber-500/30 rounded-2xl p-4 flex flex-col gap-3 transition">
-            <div className="flex items-center gap-2 text-xs font-mono text-amber-400 font-bold">
-              <Download className="w-4 h-4 text-amber-500 animate-bounce" />
-              <span>ANDROID STUDIO PROJESİ</span>
-            </div>
-            <p className="text-[11px] text-neutral-400 leading-normal">
-              Bu projeyi bilgisayarınıza indirip Android Studio ile kendi özel APK'nızı oluşturabilirsiniz.
-            </p>
-            
-          </div>
-
-          <p className="text-[10px] font-black tracking-widest text-[#666] uppercase px-1 mt-2">KATEGORİLER</p>
+      
+         <p className="text-[10px] font-black tracking-widest text-[#666] uppercase px-1 mt-2">KATEGORİLER</p>
           
           {/* List of Main Categories (Large, extremely tactile screen buttons) */}
           <nav className="flex flex-col gap-2.5">
