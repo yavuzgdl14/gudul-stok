@@ -9,9 +9,8 @@ workflows:
       - npm install
 - npm run mobile:build
 - |
-      cd android
-      chmod +x gradlew
-      ./gradlew assembleDebug
-    ./gradlew assembleDebug
+  cd android
+  chmod +x ./gradlew
+        ./gradlew assembleDebug
     artifacts:
       - android/app/build/outputs/**/*.apk
