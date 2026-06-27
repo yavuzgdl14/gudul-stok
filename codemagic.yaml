@@ -7,9 +7,11 @@ workflows:
       java: 17
     scripts:
       - npm install
-      - npm run mobile:build
-      - cd android
-      - chmod +x gradlew
-      - ./gradlew assembleDebug
+- npm run mobile:build
+- |
+      cd android
+      chmod +x gradlew
+      ./gradlew assembleDebug
+    ./gradlew assembleDebug
     artifacts:
       - android/app/build/outputs/**/*.apk
