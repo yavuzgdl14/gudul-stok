@@ -466,7 +466,7 @@ export default function App() {
           
           {/* Brand Logo Sticker Badge */}
           <div className="bg-[#121212] border border-[#262626] rounded-3xl p-6 flex flex-col items-center justify-center text-center shadow-md">
-            <GudulLogo size={240} showCircle={true} 
+            <GudulLogo size={240} showCircle={true} />
           </div>
 
           {/* Quick Date Display */}
