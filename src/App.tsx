@@ -476,7 +476,7 @@ export default function App() {
               <span>GÜNCEL SAAT</span>
             </div>
             <span className="text-white font-bold">{timeString || "00:00"}</span>
-      
+          </div> 
          <p className="text-[10px] font-black tracking-widest text-[#666] uppercase px-1 mt-2">KATEGORİLER</p>
           
           {/* List of Main Categories (Large, extremely tactile screen buttons) */}
