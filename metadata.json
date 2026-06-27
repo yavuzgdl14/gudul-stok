@@ -1,0 +1,6 @@
+{
+  "name": "GÜDÜL TİCARET",
+  "description": "Profesyonel Kapı ve Kasa Stok Takip Uygulaması",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

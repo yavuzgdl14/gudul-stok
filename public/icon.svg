@@ -1,0 +1,68 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Solid elegant dark background supporting maskable launcher grids -->
+  <rect width="512" height="512" rx="100" fill="#0c0c0e" />
+  
+  <g transform="translate(56, 56) scale(1)">
+    <!-- Inner design of GudulLogo -->
+    <circle cx="200" cy="200" r="185" fill="#0c0c0e" stroke="#222" strokeWidth="2" />
+    
+    <!-- GÜDÜL TİCARET Title -->
+    <text 
+      x="55" 
+      y="198" 
+      font-family='"Impact", "Arial Black", "Trebuchet MS", "Inter", sans-serif' 
+      font-weight="900" 
+      font-size="36" 
+      letter-spacing="0.5px" 
+      fill="#ffffff"
+    >
+      GÜDÜL TİCARET
+    </text>
+    
+    <!-- Horizontal lines -->
+    <line x1="55" y1="210" x2="345" y2="210" stroke="#ffffff" stroke-width="2.5" stroke-linecap="square" />
+    <line x1="55" y1="215" x2="345" y2="215" stroke="#ffffff" stroke-width="1" stroke-linecap="square" />
+    
+    <!-- Door Frame -->
+    <rect x="270" y="138" width="45" height="69" fill="#0c0c0e" stroke="#ffffff" stroke-width="2.5" />
+    
+    <!-- Door Panel -->
+    <polygon 
+      points="315,138 350,142 350,214 315,207" 
+      fill="#ffffff" 
+      stroke="#ffffff" 
+      stroke-width="1" 
+      stroke-linejoin="round"
+    />
+    
+    <!-- Door Knob -->
+    <circle cx="341" cy="178" r="3.5" fill="#0c0c0e" />
+    
+    <!-- Subtitles -->
+    <text 
+      x="200" 
+      y="252" 
+      font-family='Georgia, Cambria, "Times New Roman", Times, serif' 
+      font-weight="bold" 
+      font-size="14" 
+      text-anchor="middle" 
+      fill="#ffffff"
+      letter-spacing="0.2px"
+    >
+      Panel-PVC-Melamin-Lake-Çelik Kapı
+    </text>
+    
+    <text 
+      x="200" 
+      y="278" 
+      font-family='Georgia, Cambria, "Times New Roman", Times, serif' 
+      font-weight="bold" 
+      font-size="14" 
+      text-anchor="middle" 
+      fill="#ffffff"
+      letter-spacing="0.2px"
+    >
+      Laminant Parke-Mutfak
+    </text>
+  </g>
+</svg>
